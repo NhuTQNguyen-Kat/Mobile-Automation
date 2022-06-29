@@ -1,0 +1,35 @@
+trigger:
+- dev
+
+resources:
+- repo: self
+
+variables:
+  tag: '$(Build.BuildId)'
+  testSuitePath: 'Test Suites/Regression Testing/Regression Testing'
+  workingDirectory: '$(Build.SourcesDirectory)/Automation'
+  projectId: 170981
+
+schedules:
+- cron: "0 0 * * *"
+  displayName: Daily midnight build
+  branches:
+    include:
+    - dev
+  always: true
+
+steps:
+- task: Bash@3
+  continueOnError: true
+  inputs:
+    workingDirectory: '$(workingDirectory)'
+    targetType: 'inline'
+    script: |
+      docker run -t --rm -v "$(pwd)":/tmp/project katalonstudio/katalon katalonc.sh -projectPath=/tmp/project -browserType="Chrome" -retry=0 -statusDelay=15 -testSuitePath="$(testSuitePath)" -apikey=$(KATALON_API_KEY)
+- task: Bash@3
+  continueOnError: true
+  inputs:
+    workingDirectory: '$(workingDirectory)'
+    targetType: 'inline'
+    script: |
+      docker run -t --rm -v "$(pwd)/Reports":/katalon/report -e PASSWORD=$(KATALON_API_KEY) -e PROJECT_ID=$(projectId) -e TYPE=katalon -e REPORT_PATH=/katalon/report katalonstudio/report-uploader:0.0.8

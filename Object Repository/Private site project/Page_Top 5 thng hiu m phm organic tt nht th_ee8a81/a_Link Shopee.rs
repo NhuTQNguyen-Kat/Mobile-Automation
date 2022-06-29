@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Link Shopee</name>
+   <tag></tag>
+   <elementGuidId>c8db44b6-ecb0-4089-bcfb-2c634377e5e3</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>a.wp-block-button__link</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//article[@id='post-1555']/div/div/div/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>f55b3162-fecd-40e7-94a7-7c3ea12be41c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>wp-block-button__link</value>
+      <webElementGuid>f2ff2bfb-05e1-4f5c-b7c3-0ad8f428aea5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>target</name>
+      <type>Main</type>
+      <value>_blank</value>
+      <webElementGuid>341ee814-06ec-418b-b763-57d9f252a840</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>rel</name>
+      <type>Main</type>
+      <value>noreferrer noopener</value>
+      <webElementGuid>e275ac5a-7231-4668-974c-420fdc32cfa4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Link Shopee</value>
+      <webElementGuid>47f9a099-8d03-4e66-a689-727a9e7d1e04</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;post-1555&quot;)/div[@class=&quot;entry-content&quot;]/div[@class=&quot;wp-block-buttons&quot;]/div[@class=&quot;wp-block-button&quot;]/a[@class=&quot;wp-block-button__link&quot;]</value>
+      <webElementGuid>465e2d8d-9b12-4a7e-9d6a-3a9be1b59157</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//article[@id='post-1555']/div/div/div/a</value>
+      <webElementGuid>1ebd8983-f259-441b-b1b6-66fb559fa59c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Link Shopee')]</value>
+      <webElementGuid>8995725d-4921-44a7-baaf-951401e5ed78</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Value 2'])[1]/following::a[1]</value>
+      <webElementGuid>a202696b-3f26-4485-a450-91c545c5aee7</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Value 1'])[1]/following::a[1]</value>
+      <webElementGuid>f00d1cbb-02d5-440c-9765-efe1c80b8574</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Link Tiki'])[1]/preceding::a[1]</value>
+      <webElementGuid>a0c1b3c8-d75c-4769-9cb2-bf3fa9991925</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Link Shopee']/parent::*</value>
+      <webElementGuid>5c584cf3-e62a-4f1a-bf70-f8520965e762</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>(//a[contains(@href, '')])[8]</value>
+      <webElementGuid>c24b9490-bbf8-47d4-a793-99264525f23e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div/div/a</value>
+      <webElementGuid>3ce87c9d-e5bb-4d70-87a7-0b8be0cd5be9</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[(text() = 'Link Shopee' or . = 'Link Shopee')]</value>
+      <webElementGuid>7efe70dc-dc2f-4418-af44-8e55aa1a9295</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

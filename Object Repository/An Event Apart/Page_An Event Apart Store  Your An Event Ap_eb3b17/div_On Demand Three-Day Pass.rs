@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>div_On Demand Three-Day Pass</name>
+   <tag></tag>
+   <elementGuidId>2e86b808-a3f5-40ab-812d-59f2e2df9ef1</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>div.ticket-pricing-name</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='cart_show']/table/tbody/tr/td/div</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>div</value>
+      <webElementGuid>85e05c27-8e68-4b91-b14a-63c9420c8478</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ticket-pricing-name</value>
+      <webElementGuid>f18dcc56-0671-4f40-9488-eebe6c003095</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>On Demand Three-Day Pass</value>
+      <webElementGuid>9401275f-4f59-446e-83c3-2d52570f4b92</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;cart_show&quot;)/table[@class=&quot;receiptLayout&quot;]/tbody[1]/tr[@class=&quot;cart_item&quot;]/td[@class=&quot;receiptPrimary receiptItem&quot;]/div[@class=&quot;ticket-pricing-name&quot;]</value>
+      <webElementGuid>8df0a705-945f-40b2-abdf-cd4554cdb545</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='cart_show']/table/tbody/tr/td/div</value>
+      <webElementGuid>728912d1-285a-40c5-bcc7-871b839655eb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Subtotal'])[1]/following::div[1]</value>
+      <webElementGuid>a0c84a28-50b8-4594-842d-73ce6a492ce3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Ticket'])[1]/following::div[1]</value>
+      <webElementGuid>8f847e70-5e7f-49d0-8b24-163cbe8e86b2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Spring Summit · April 18-20, 2022 · The Web'])[1]/preceding::div[1]</value>
+      <webElementGuid>1be21b2b-a089-47ea-8424-da6a475aa55c</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='On Demand Three-Day Pass']/parent::*</value>
+      <webElementGuid>bb3fb2a6-e2ec-4879-9fa6-d8290877f528</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td/div</value>
+      <webElementGuid>2c5a9eef-0f70-4d42-ae5a-9369d9bf7f98</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//div[(text() = 'On Demand Three-Day Pass' or . = 'On Demand Three-Day Pass')]</value>
+      <webElementGuid>0e37c106-a05e-4e19-8374-c5288d3aca81</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

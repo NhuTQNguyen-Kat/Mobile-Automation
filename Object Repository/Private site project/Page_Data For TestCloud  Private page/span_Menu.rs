@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Menu</name>
+   <tag></tag>
+   <elementGuidId>a8c29167-dfcc-45fb-993b-2057910298a4</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.dropdown-icon.open</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[@id='primary-mobile-menu']/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>4d9b1d7c-e0f5-4ed1-80e1-cdbbf8700141</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>dropdown-icon open</value>
+      <webElementGuid>4cc7b10a-880f-426e-a757-f37d3baa7c6b</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Menu									</value>
+      <webElementGuid>5532c0af-337e-4372-a074-94b9358cd737</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;primary-mobile-menu&quot;)/span[@class=&quot;dropdown-icon open&quot;]</value>
+      <webElementGuid>e4d7c874-7527-4b14-b49a-1d90eaee6b6b</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//button[@id='primary-mobile-menu']/span</value>
+      <webElementGuid>3a18ceac-9e88-4e46-825d-7987319a5dda</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Data For TestCloud'])[1]/following::span[1]</value>
+      <webElementGuid>083afa21-ed9b-430c-b1ed-0713465380d6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Skip to content'])[1]/following::span[1]</value>
+      <webElementGuid>b43ac486-2508-4cd5-92d0-b873b39f8189</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Close'])[1]/preceding::span[1]</value>
+      <webElementGuid>6224600b-db18-466f-afd9-69c4d889aa51</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mỹ phẩm'])[1]/preceding::span[2]</value>
+      <webElementGuid>391a78de-5be2-4239-a9a7-558a6aa3a481</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Menu']/parent::*</value>
+      <webElementGuid>b6ca8047-7a6f-4673-ab0c-7f224b73ff2a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span</value>
+      <webElementGuid>4b476618-dd9e-40b3-aa84-2e6045e7e117</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = 'Menu									' or . = 'Menu									')]</value>
+      <webElementGuid>8dbd268f-836c-4af9-b335-b7ad51dfb336</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

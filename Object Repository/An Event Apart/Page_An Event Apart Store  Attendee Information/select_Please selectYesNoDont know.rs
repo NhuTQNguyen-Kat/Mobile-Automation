@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>select_Please selectYesNoDont know</name>
+   <tag></tag>
+   <elementGuidId>5d1b65c7-bf3c-4cb8-bdcd-adce270bf1d9</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>#attendee_alumni</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//select[@id='attendee_alumni']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>select</value>
+      <webElementGuid>5b8ae7eb-06fe-49d4-a5a3-c55adb2af5db</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>name</name>
+      <type>Main</type>
+      <value>attendee[alumni]</value>
+      <webElementGuid>6afad294-cf34-4c5e-bfa9-31109c557ae0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>attendee_alumni</value>
+      <webElementGuid>d7a8386b-1b24-427f-97f5-adc8b5ad7de9</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Please select
+Yes
+No
+Don't know</value>
+      <webElementGuid>8d46477b-afe8-414f-a8a0-1d153746ca5f</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;attendee_alumni&quot;)</value>
+      <webElementGuid>cb1fb632-42ed-4229-83dc-d68fbbecd89e</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:attributes</name>
+      <type>Main</type>
+      <value>//select[@id='attendee_alumni']</value>
+      <webElementGuid>a4f22ce6-89e8-435c-83b9-095ea55c4d1d</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//form[@id='new_attendee']/ol/li[9]/div/select</value>
+      <webElementGuid>c30e36d9-6500-4107-bbb0-9e18fe1a750a</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Has this person attended one of our previous events?'])[1]/following::select[1]</value>
+      <webElementGuid>9e5a3962-718f-4579-9e74-e5d77d6c5dbe</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Phone:'])[1]/following::select[1]</value>
+      <webElementGuid>76a6062c-845e-4cfb-a56d-2b65eb7f8176</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Discount Code:'])[1]/preceding::select[1]</value>
+      <webElementGuid>0f75c2b7-1659-4feb-838f-ba671c5bd94b</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Your Selection'])[1]/preceding::select[1]</value>
+      <webElementGuid>bd6b515d-fec5-42a6-baf6-1b0c9bb8de49</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[9]/div/select</value>
+      <webElementGuid>386d44b3-9f58-4c2d-91de-8baaef59c7e2</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//select[@name = 'attendee[alumni]' and @id = 'attendee_alumni' and (text() = concat(&quot;Please select
+Yes
+No
+Don&quot; , &quot;'&quot; , &quot;t know&quot;) or . = concat(&quot;Please select
+Yes
+No
+Don&quot; , &quot;'&quot; , &quot;t know&quot;))]</value>
+      <webElementGuid>ec9ce5dd-a716-4b9c-bfa2-471f7136187f</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

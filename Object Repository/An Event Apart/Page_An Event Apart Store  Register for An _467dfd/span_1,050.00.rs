@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_1,050.00</name>
+   <tag></tag>
+   <elementGuidId>d272e3a3-23d2-4fde-9512-be2bf9fc1f5b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>p.ticket-pricings > span</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='on-demand-three-day-pass']/footer/p/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>97aba3ff-9fc9-4707-8b1a-4c91fd0b9eb4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>$1,050.00</value>
+      <webElementGuid>d92d96ae-e095-4496-bdfa-8e7a42e8b34a</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;on-demand-three-day-pass&quot;)/footer[1]/p[@class=&quot;ticket-pricings&quot;]/span[1]</value>
+      <webElementGuid>7f424b2c-4ae8-45e4-8dd6-19d25fce1566</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='on-demand-three-day-pass']/footer/p/span</value>
+      <webElementGuid>d12759c7-83da-4a8d-beb4-a4a5a6304cc6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='$1,050.00'])[1]/following::span[1]</value>
+      <webElementGuid>661b1010-af45-4aba-b2e4-ba20571c5751</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Buy Now!'])[1]/preceding::span[1]</value>
+      <webElementGuid>9c5e7bec-d9fa-4c82-a12a-03d8af0d1ad3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='April 18-19, 2022'])[1]/preceding::span[1]</value>
+      <webElementGuid>47390978-642c-4b55-9383-1288d06c2be6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//p/span</value>
+      <webElementGuid>d79accb8-a332-4af0-9daa-7990819397d5</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '$1,050.00' or . = '$1,050.00')]</value>
+      <webElementGuid>4e47380c-314d-4052-87c9-49e9d65ac5c8</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

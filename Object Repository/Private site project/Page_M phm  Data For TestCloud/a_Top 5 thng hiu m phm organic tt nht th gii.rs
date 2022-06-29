@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Top 5 thng hiu m phm organic tt nht th gii</name>
+   <tag></tag>
+   <elementGuidId>5e89217d-d86c-4b63-873a-29fe10bb3bd7</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>h2.entry-title.default-max-width > a</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//article[@id='post-1555']/header/h2/a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>8055cf30-04de-43d0-907c-bf2bb17ee8df</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>http://172.31.23.56/2021/10/top-5-thuong-hieu-my-pham-organic-tot-nhat-the-gioi/</value>
+      <webElementGuid>6bb8186c-502e-424d-a5cc-2ba9382f6afa</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Top 5 thương hiệu mỹ phẩm organic tốt nhất thế giới</value>
+      <webElementGuid>9dfb15f6-1136-45fa-bfba-26afd8cd3073</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;post-1555&quot;)/header[@class=&quot;entry-header&quot;]/h2[@class=&quot;entry-title default-max-width&quot;]/a[1]</value>
+      <webElementGuid>01693cf1-c542-4438-8df6-fa4225ec874d</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//article[@id='post-1555']/header/h2/a</value>
+      <webElementGuid>51f6536b-f13a-4d39-90bc-1db7a3cb1143</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:link</name>
+      <type>Main</type>
+      <value>//a[contains(text(),'Top 5 thương hiệu mỹ phẩm organic tốt nhất thế giới')]</value>
+      <webElementGuid>b9896db8-6bcc-4817-89a5-7f4c57e34571</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Mỹ phẩm'])[2]/following::a[1]</value>
+      <webElementGuid>6f71cd8e-f79c-43a6-85cf-8b96ffbe9691</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='October 15, 2021'])[1]/preceding::a[1]</value>
+      <webElementGuid>6bd1524e-58c6-4ec6-a9da-b3ddb0d82770</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Top 5 thương hiệu mỹ phẩm organic tốt nhất thế giới']/parent::*</value>
+      <webElementGuid>c72a3ace-29c2-466f-8751-2aeaa72680e1</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[@href='http://172.31.23.56/2021/10/top-5-thuong-hieu-my-pham-organic-tot-nhat-the-gioi/']</value>
+      <webElementGuid>3f00a05d-6a8a-4dbd-9022-67b6c4b89a49</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//h2/a</value>
+      <webElementGuid>059bc200-7c27-4f03-87a9-28a76ba2cdba</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'http://172.31.23.56/2021/10/top-5-thuong-hieu-my-pham-organic-tot-nhat-the-gioi/' and (text() = 'Top 5 thương hiệu mỹ phẩm organic tốt nhất thế giới' or . = 'Top 5 thương hiệu mỹ phẩm organic tốt nhất thế giới')]</value>
+      <webElementGuid>f534fb8a-a60e-4314-a12f-67cbb4988d81</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
