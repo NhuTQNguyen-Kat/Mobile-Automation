@@ -27,7 +27,7 @@ WebUI.click(findTestObject('Object Repository/An Event Apart/Page_An Event Apart
 
 WebUI.verifyTextPresent('Register for An Event Apart', false)
 
-WebUI.verifyTextPresent(text, false)
+WebUI.verifyTextPresent(text, true)
 
 WebUI.verifyTextPresent('$1,050.00', false)
 

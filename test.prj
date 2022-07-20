@@ -6,7 +6,7 @@
    <UUID>99835a50-927a-4cae-a15b-85786ef170e3</UUID>
    <migratedVersion>5.9.0</migratedVersion>
    <pageLoadTimeout>0</pageLoadTimeout>
-   <projectFileLocation>/Users/nhu.tqnguyen/Documents/KATALON_TESTCLOUD_TESTING_PROJECT/Mobile Testing script/test.prj</projectFileLocation>
+   <projectFileLocation>/Users/nhu.tqnguyen/Documents/Test_NameCharacterMobile/Mobile-Automation/test.prj</projectFileLocation>
    <sourceContent>
       <sourceFolderList>
          <sourceFolderConfiguration>

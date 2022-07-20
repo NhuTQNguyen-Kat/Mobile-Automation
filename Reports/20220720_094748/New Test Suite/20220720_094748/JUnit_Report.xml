@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="New Test Suite" time="444.682" tests="1" failures="0" errors="0">
+   <testsuite name="New Test Suite" tests="1" failures="0" errors="0" time="444.682" skipped="0" timestamp="2022-07-20 09:47:58" hostname="nhu.tqnguyen - 192.168.1.3" id="Test Suites/New Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="/Users/nhu.tqnguyen/Documents/Test_NameCharacterMobile/Mobile-Automation/Reports/20220720_094748/New Test Suite/20220720_094748"/>
+         <property name="logFiles" value="/Users/nhu.tqnguyen/Documents/Test_NameCharacterMobile/Mobile-Automation/Reports/20220720_094748/New Test Suite/20220720_094748/execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="nhu.tqnguyen - 192.168.1.3"/>
+         <property name="remoteDriverUrl" value="testcloud.katalon.com/hub"/>
+         <property name="desiredCapabilities" value="{
+  &quot;automationName&quot;: &quot;XCUITest&quot;,
+  &quot;browserName&quot;: &quot;safari&quot;,
+  &quot;browserVersion&quot;: &quot;latest&quot;,
+  &quot;databaseEnabled&quot;: false,
+  &quot;deviceContextId&quot;: &quot;bd55256f-eeb7-4210-8afe-4d1c9f9cf8ab&quot;,
+  &quot;deviceName&quot;: &quot;00008101-000C79883C98001E&quot;,
+  &quot;javascriptEnabled&quot;: true,
+  &quot;jobUuid&quot;: &quot;9d0c32f9b20441a48bb05ba21f9e5de0&quot;,
+  &quot;katalon:option&quot;: {
+    &quot;unlimitedExecutionMinutes&quot;: true,
+    &quot;jwt&quot;: &quot;eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJuaHUudHFuZ3V5ZW5Aa2F0YWxvbi5jb20iLCJ1cG4iOiI3NjgyMTUiLCJncm91cHMiOlsiQURNSU4iLCJVU0VSIl0sInN0YXR1cyI6IlZFUklGSUVEIiwiZ2l2ZW5fbmFtZSI6IkthcmEiLCJmYW1pbHlfbmFtZSI6Ik5ndXllbiIsImVtYWlsIjoibmh1LnRxbmd1eWVuQGthdGFsb24uY29tIiwiZW1haWxfdmVyaWZpZWQiOnRydWUsImNyZWF0ZWRfYXQiOjE2MzE4MDg3NTAsInVwZGF0ZWRfYXQiOjE2NTgyODQ1MjUsImFtciI6WyJwd2QiXSwiaWF0IjoxNjU4Mjg0NTI3LCJleHAiOjE2NTg4ODkzMjcsImp0aSI6IjFkN2NhN2UwLTZmODgtNDRlMS1iOWI5LTExNmQ0NWFhNWJhYyIsImlzcyI6ImthdGFsb24tYXV0aCJ9.dsFHeFc-nQhmCIyGSS7J7sk9hYlo0cgas5JN71mxj9L9OlkDRjGFApVjbZFkCHcfI3v3Mm5LnCr1FHMhGqXG3YxdTAIdlRSPQ1VtRjshKKXENPQ6K7cDbyicovyNsOP6-AkQdCDb7sa2p7hxuT1JksjMFdyBU37lbeS6y92nY44Tg7Kyg6kTAhl3qqmLnoQkKYchFwyzasMS-9wn_hCgVd6qazxMFmR_2ZKyUmGQpUWTNpSWaK7XAFc6QQF3hfxzPUy11vvxspf4y1Tw1PT218KaOBz0YyUBC7D0E3q6xYq1v9urhj-xwV2C9d6GPgDKjMxeJn5kbgngrfikUoPzWQ&quot;,
+    &quot;userId&quot;: 768215,
+    &quot;organizationId&quot;: &quot;701936&quot;,
+    &quot;class&quot;: &quot;com.katalon.testcloud.grid.common.tunnel.domain.UserOptionCapability&quot;,
+    &quot;usingTunnel&quot;: false,
+    &quot;username&quot;: &quot;nhu.tqnguyen@katalon.com&quot;
+  },
+  &quot;locationContextEnabled&quot;: false,
+  &quot;networkConnectionEnabled&quot;: false,
+  &quot;orientation&quot;: &quot;PORTRAIT&quot;,
+  &quot;platform&quot;: &quot;MAC&quot;,
+  &quot;platformName&quot;: &quot;MAC&quot;,
+  &quot;platformVersion&quot;: &quot;14.7.1&quot;,
+  &quot;proxy&quot;: {
+    &quot;proxyType&quot;: &quot;DIRECT&quot;,
+    &quot;autodetect&quot;: false
+  },
+  &quot;requestId&quot;: &quot;cee3bfc2-3d8c-4bfa-a688-9ce1daf72c38&quot;,
+  &quot;sauce:options&quot;: {
+    &quot;name&quot;: &quot;TestCloud Automated Test Session&quot;,
+    &quot;realDevice&quot;: true,
+    &quot;commandTimeouts&quot;: &quot;60000&quot;,
+    &quot;sessionCreationTimeout&quot;: 900000
+  },
+  &quot;takesScreenshot&quot;: true,
+  &quot;testobject_device&quot;: &quot;iPhone_12_mini_real_us&quot;,
+  &quot;testobject_device_name&quot;: &quot;iPhone 12 mini&quot;,
+  &quot;testobject_device_session_id&quot;: &quot;00adc360-3a22-455a-be66-de8084a00d9c&quot;,
+  &quot;testobject_test_report_api_url&quot;: &quot;https://api.us-west-1.saucelabs.com/v1/rdc/jobs/9d0c32f9b20441a48bb05ba21f9e5de0&quot;,
+  &quot;testobject_test_report_url&quot;: &quot;https://app.saucelabs.com/tests/9d0c32f9b20441a48bb05ba21f9e5de0&quot;,
+  &quot;testobject_user_id&quot;: &quot;coty_katalon&quot;,
+  &quot;udid&quot;: &quot;00008101-000C79883C98001E&quot;,
+  &quot;usedCachedDevice&quot;: false,
+  &quot;webDriverAgentUrl&quot;: &quot;http://127.0.0.1:5715&quot;,
+  &quot;webStorageEnabled&quot;: false
+}"/>
+         <property name="os" value="Mac OS X 64bit"/>
+         <property name="remoteOS" value="iOS"/>
+         <property name="katalonVersion" value="8.4.0.208"/>
+         <property name="browser" value="Safari 14"/>
+         <property name="hostAddress" value="192.168.1.3"/>
+         <property name="sessionId" value="42010b0a-f6be-465b-b2da-372fb6cfaaf5"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Mac OS X"/>
+      </properties>
+      <testcase name="Test Cases/An Event Apart Website/AEA02_Register Now" time="444.377" classname="Test Cases/An Event Apart Website/AEA02_Register Now" status="PASSED">
+         <system-out><![CDATA[2022-07-20 09:47:58 - [TEST_CASE][PASSED] - Test Cases/An Event Apart Website/AEA02_Register Now: Test Cases/An Event Apart Website/AEA02_Register Now
+
+2022-07-20 09:47:58 - [TEST_STEP][PASSED] - Start listener action : sampleBeforeTestCase: Browser is opened with url: 'http://demoaut.katalon.com'
+
+2022-07-20 09:47:58 - [TEST_STEP][PASSED] - openBrowser(G_SiteURL): Browser is opened with url: 'http://demoaut.katalon.com'
+
+2022-07-20 09:47:58 - [MESSAGE][INFO] - User set preference: ['os', 'ios']
+
+2022-07-20 09:47:58 - [MESSAGE][INFO] - User set preference: ['browserName', 'safari']
+
+2022-07-20 09:47:58 - [MESSAGE][INFO] - User set preference: ['browserVersion', 'latest']
+
+2022-07-20 09:47:58 - [MESSAGE][INFO] - User set preference: ['katalon:option', '{organizationId=701936, tunnelId=, usingTunnel=false}']
+
+2022-07-20 09:47:58 - [MESSAGE][INFO] - Connecting to remote web server 'testcloud.katalon.com/hub' with type 'Selenium'
+
+2022-07-20 09:47:59 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2022-07-20 09:49:14 - [MESSAGE][PASSED] - Browser is opened with url: 'http://demoaut.katalon.com'
+
+2022-07-20 09:49:15 - [TEST_STEP][PASSED] - navigateToUrl("https://aneventapart.com/"): Navigate to 'https://aneventapart.com/' successfully
+
+2022-07-20 09:49:18 - [MESSAGE][PASSED] - Navigate to 'https://aneventapart.com/' successfully
+
+2022-07-20 09:49:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/An Event Apart/Page_An Event Apart - the premier web  inte_f2ce13/label_Menu")): Object: 'Object Repository/An Event Apart/Page_An Event Apart - the premier web  inte_f2ce13/label_Menu' is clicked on
+
+2022-07-20 09:49:22 - [MESSAGE][PASSED] - Object: 'Object Repository/An Event Apart/Page_An Event Apart - the premier web  inte_f2ce13/label_Menu' is clicked on
+
+2022-07-20 09:49:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/An Event Apart/Page_An Event Apart - the premier web  inte_f2ce13/a_Register Now")): Object: 'Object Repository/An Event Apart/Page_An Event Apart - the premier web  inte_f2ce13/a_Register Now' is clicked on
+
+2022-07-20 09:49:26 - [MESSAGE][PASSED] - Object: 'Object Repository/An Event Apart/Page_An Event Apart - the premier web  inte_f2ce13/a_Register Now' is clicked on
+
+2022-07-20 09:49:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/An Event Apart/Page_An Event Apart Store  Registration/a_Spring Summit")): Object: 'Object Repository/An Event Apart/Page_An Event Apart Store  Registration/a_Spring Summit' is clicked on
+
+2022-07-20 09:49:30 - [MESSAGE][PASSED] - Object: 'Object Repository/An Event Apart/Page_An Event Apart Store  Registration/a_Spring Summit' is clicked on
+
+2022-07-20 09:49:30 - [TEST_STEP][PASSED] - verifyTextPresent("Register for An Event Apart", false): Text 'Register for An Event Apart' is present on page 
+
+2022-07-20 09:49:34 - [MESSAGE][PASSED] - Text 'Register for An Event Apart' is present on page 
+
+2022-07-20 09:49:34 - [TEST_STEP][PASSED] - verifyTextPresent(text, true): Text 'On Demand Three-Day Pass' is present on page  using regular expression
+
+2022-07-20 09:49:37 - [MESSAGE][PASSED] - Text 'On Demand Three-Day Pass' is present on page  using regular expression
+
+2022-07-20 09:49:37 - [TEST_STEP][PASSED] - verifyTextPresent("$1,050.00", false): Text '$1,050.00' is present on page 
+
+2022-07-20 09:49:40 - [MESSAGE][PASSED] - Text '$1,050.00' is present on page 
+
+2022-07-20 09:49:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/An Event Apart/Page_An Event Apart Store  Register for An _467dfd/a_Buy Now")): Object: 'Object Repository/An Event Apart/Page_An Event Apart Store  Register for An _467dfd/a_Buy Now' is clicked on
+
+2022-07-20 09:49:44 - [MESSAGE][PASSED] - Object: 'Object Repository/An Event Apart/Page_An Event Apart Store  Register for An _467dfd/a_Buy Now' is clicked on
+
+2022-07-20 09:49:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/An Event Apart/Page_An Event Apart Store  Attendee Information/input_First Name_attendeefirst_name"), "First name"): Text 'First name' is set on object 'Object Repository/An Event Apart/Page_An Event Apart Store  Attendee Information/input_First Name_attendeefirst_name'
+
+2022-07-20 09:49:51 - [MESSAGE][PASSED] - Text 'First name' is set on object 'Object Repository/An Event Apart/Page_An Event Apart Store  Attendee Information/input_First Name_attendeefirst_name'
+
+2022-07-20 09:49:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/An Event Apart/Page_An Event Apart Store  Attendee Information/input_Last Name_attendeelast_name"), "last name"): Text 'last name' is set on object 'Object Repository/An Event Apart/Page_An Event Apart Store  Attendee Information/input_Last Name_attendeelast_name'
+
+2022-07-20 09:50:00 - [MESSAGE][PASSED] - Text 'last name' is set on object 'Object Repository/An Event Apart/Page_An Event Apart Store  Attendee Information/input_Last Name_attendeelast_name'
+
+2022-07-20 09:50:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/An Event Apart/Page_An Event Apart Store  Attendee Information/input_Company_attendeecompany"), "company"): Text 'company' is set on object 'Object Repository/An Event Apart/Page_An Event Apart Store  Attendee Information/input_Company_attendeecompany'
+
+2022-07-20 09:50:06 - [MESSAGE][PASSED] - Text 'company' is set on object 'Object Repository/An Event Apart/Page_An Event Apart Store  Attendee Information/input_Company_attendeecompany'
+
+2022-07-20 09:50:06 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/An Event Apart/Page_An Event Apart Store  Attendee Information/input_Title_attendeetitle"), "title"): Text 'title' is set on object 'Object Repository/An Event Apart/Page_An Event Apart Store  Attendee Information/input_Title_attendeetitle'
+
+2022-07-20 09:50:13 - [MESSAGE][PASSED] - Text 'title' is set on object 'Object Repository/An Event Apart/Page_An Event Apart Store  Attendee Information/input_Title_attendeetitle'
+
+2022-07-20 09:50:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/An Event Apart/Page_An Event Apart Store  Attendee Information/input_Address_attendeeaddress"), "address"): Text 'address' is set on object 'Object Repository/An Event Apart/Page_An Event Apart Store  Attendee Information/input_Address_attendeeaddress'
+
+2022-07-20 09:50:20 - [MESSAGE][PASSED] - Text 'address' is set on object 'Object Repository/An Event Apart/Page_An Event Apart Store  Attendee Information/input_Address_attendeeaddress'
+
+2022-07-20 09:50:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/An Event Apart/Page_An Event Apart Store  Attendee Information/input_Suite_attendeesuite"), "suite"): Text 'suite' is set on object 'Object Repository/An Event Apart/Page_An Event Apart Store  Attendee Information/input_Suite_attendeesuite'
+
+2022-07-20 09:50:31 - [MESSAGE][PASSED] - Text 'suite' is set on object 'Object Repository/An Event Apart/Page_An Event Apart Store  Attendee Information/input_Suite_attendeesuite'
+
+2022-07-20 09:50:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/An Event Apart/Page_An Event Apart Store  Attendee Information/input_City_attendeecity"), "city"): Text 'city' is set on object 'Object Repository/An Event Apart/Page_An Event Apart Store  Attendee Information/input_City_attendeecity'
+
+2022-07-20 09:50:37 - [MESSAGE][PASSED] - Text 'city' is set on object 'Object Repository/An Event Apart/Page_An Event Apart Store  Attendee Information/input_City_attendeecity'
+
+2022-07-20 09:50:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/An Event Apart/Page_An Event Apart Store  Attendee Information/input_State_attendeestate"), "state"): Text 'state' is set on object 'Object Repository/An Event Apart/Page_An Event Apart Store  Attendee Information/input_State_attendeestate'
+
+2022-07-20 09:50:44 - [MESSAGE][PASSED] - Text 'state' is set on object 'Object Repository/An Event Apart/Page_An Event Apart Store  Attendee Information/input_State_attendeestate'
+
+2022-07-20 09:50:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/An Event Apart/Page_An Event Apart Store  Attendee Information/input_Zip_attendeezip"), "11111"): Text '11111' is set on object 'Object Repository/An Event Apart/Page_An Event Apart Store  Attendee Information/input_Zip_attendeezip'
+
+2022-07-20 09:50:51 - [MESSAGE][PASSED] - Text '11111' is set on object 'Object Repository/An Event Apart/Page_An Event Apart Store  Attendee Information/input_Zip_attendeezip'
+
+2022-07-20 09:50:51 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/An Event Apart/Page_An Event Apart Store  Attendee Information/select_United StatesCanadaAfghanistanAland _99e1a8"), "Canada", true): All options with value 'Canada' are selected in object 'Object Repository/An Event Apart/Page_An Event Apart Store  Attendee Information/select_United StatesCanadaAfghanistanAland _99e1a8'  using regular expression
+
+2022-07-20 09:54:26 - [MESSAGE][PASSED] - All options with value 'Canada' are selected in object 'Object Repository/An Event Apart/Page_An Event Apart Store  Attendee Information/select_United StatesCanadaAfghanistanAland _99e1a8'  using regular expression
+
+2022-07-20 09:54:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/An Event Apart/Page_An Event Apart Store  Attendee Information/input_Email_attendeeemail"), "email@gmail.com"): Text 'email@gmail.com' is set on object 'Object Repository/An Event Apart/Page_An Event Apart Store  Attendee Information/input_Email_attendeeemail'
+
+2022-07-20 09:54:35 - [MESSAGE][PASSED] - Text 'email@gmail.com' is set on object 'Object Repository/An Event Apart/Page_An Event Apart Store  Attendee Information/input_Email_attendeeemail'
+
+2022-07-20 09:54:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/An Event Apart/Page_An Event Apart Store  Attendee Information/input_Phone_attendeephone"), "0123123123"): Text '0123123123' is set on object 'Object Repository/An Event Apart/Page_An Event Apart Store  Attendee Information/input_Phone_attendeephone'
+
+2022-07-20 09:54:42 - [MESSAGE][PASSED] - Text '0123123123' is set on object 'Object Repository/An Event Apart/Page_An Event Apart Store  Attendee Information/input_Phone_attendeephone'
+
+2022-07-20 09:54:42 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/An Event Apart/Page_An Event Apart Store  Attendee Information/select_Please selectYesNoDont know"), "2", true): All options with value '2' are selected in object 'Object Repository/An Event Apart/Page_An Event Apart Store  Attendee Information/select_Please selectYesNoDont know'  using regular expression
+
+2022-07-20 09:55:01 - [MESSAGE][PASSED] - All options with value '2' are selected in object 'Object Repository/An Event Apart/Page_An Event Apart Store  Attendee Information/select_Please selectYesNoDont know'  using regular expression
+
+2022-07-20 09:55:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/An Event Apart/Page_An Event Apart Store  Attendee Information/input_Has this person attended one of our p_a67947")): Object: 'Object Repository/An Event Apart/Page_An Event Apart Store  Attendee Information/input_Has this person attended one of our p_a67947' is clicked on
+
+2022-07-20 09:55:04 - [MESSAGE][PASSED] - Object: 'Object Repository/An Event Apart/Page_An Event Apart Store  Attendee Information/input_Has this person attended one of our p_a67947' is clicked on
+
+2022-07-20 09:55:04 - [TEST_STEP][PASSED] - click(findTestObject("An Event Apart/Page_An Event Apart Store  Attendee Information/btn_Add attendee")): Object: 'Object Repository/An Event Apart/Page_An Event Apart Store  Attendee Information/btn_Add attendee' is clicked on
+
+2022-07-20 09:55:07 - [MESSAGE][PASSED] - Object: 'Object Repository/An Event Apart/Page_An Event Apart Store  Attendee Information/btn_Add attendee' is clicked on
+
+2022-07-20 09:55:07 - [TEST_STEP][PASSED] - ticket = getText(findTestObject("Object Repository/An Event Apart/Page_An Event Apart Store  Your An Event Ap_eb3b17/div_On Demand Three-Day Pass")): Text of object 'Object Repository/An Event Apart/Page_An Event Apart Store  Your An Event Ap_eb3b17/div_On Demand Three-Day Pass' is: 'On Demand Three-Day Pass'
+
+2022-07-20 09:55:12 - [MESSAGE][PASSED] - Text of object 'Object Repository/An Event Apart/Page_An Event Apart Store  Your An Event Ap_eb3b17/div_On Demand Three-Day Pass' is: 'On Demand Three-Day Pass'
+
+2022-07-20 09:55:12 - [TEST_STEP][PASSED] - totalcell = getText(findTestObject("An Event Apart/Page_An Event Apart Store  Your An Event Ap_eb3b17/td_Total1,050.00")): Text of object 'Object Repository/An Event Apart/Page_An Event Apart Store  Your An Event Ap_eb3b17/td_Total1,050.00' is: 'TOTAL:$1,050.00'
+
+2022-07-20 09:55:15 - [MESSAGE][PASSED] - Text of object 'Object Repository/An Event Apart/Page_An Event Apart Store  Your An Event Ap_eb3b17/td_Total1,050.00' is: 'TOTAL:$1,050.00'
+
+2022-07-20 09:55:15 - [TEST_STEP][PASSED] - verifyMatch(ticket, "On Demand Three-Day Pass", false): Actual text 'On Demand Three-Day Pass' and expected text 'On Demand Three-Day Pass' are matched 
+
+2022-07-20 09:55:15 - [MESSAGE][PASSED] - Actual text 'On Demand Three-Day Pass' and expected text 'On Demand Three-Day Pass' are matched 
+
+2022-07-20 09:55:15 - [TEST_STEP][PASSED] - verifyMatch(totalcell, "TOTAL:$1,050.00", false): Actual text 'TOTAL:$1,050.00' and expected text 'TOTAL:$1,050.00' are matched 
+
+2022-07-20 09:55:15 - [MESSAGE][PASSED] - Actual text 'TOTAL:$1,050.00' and expected text 'TOTAL:$1,050.00' are matched 
+
+2022-07-20 09:55:15 - [TEST_STEP][PASSED] - Start listener action : sampleAfterTestCase: Browser is closed
+
+2022-07-20 09:55:15 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2022-07-20 09:55:20 - [MESSAGE][PASSED] - Browser is closed
+
+2022-07-20 09:55:22 - [TEST_STEP][PASSED] - Video: Video recording for test case 'Test Cases/An Event Apart Website/AEA02_Register Now' .
+
+2022-07-20 09:55:22 - [MESSAGE][INFO] - Video recording for test case 'Test Cases/An Event Apart Website/AEA02_Register Now' .]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-07-20 09:47:58 - [TEST_SUITE][PASSED] - New Test Suite: Test Cases/An Event Apart Website/AEA02_Register Now]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

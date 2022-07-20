@@ -1,0 +1,8 @@
+1
+00:00:00,894 --> 00:00:00,968
+1. navigateToUrl("https://aneventapart.com/")
+
+2
+00:00:00,977 --> 00:00:01,005
+3. Close Browser
+

@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite,,,,2022-07-20 09:35:45,2022-07-20 09:35:53,7.747s,FAILED
+,,,,,,,
+Test Cases/An Event Apart Website/AEA02_Register Now,,,,2022-07-20 09:35:46,2022-07-20 09:35:53,7.319s,FAILED
+Start listener action : sampleBeforeTestCase,,,,2022-07-20 09:35:46,2022-07-20 09:35:50,3.400s,ERROR
+"navigateToUrl(""https://aneventapart.com/"")",,,,2022-07-20 09:35:51,2022-07-20 09:35:51,0.064s,FAILED
+Start listener action : sampleAfterTestCase,,,,2022-07-20 09:35:51,2022-07-20 09:35:51,0.037s,PASSED
+Video,,,,2022-07-20 09:35:53,2022-07-20 09:35:53,0.002s,PASSED

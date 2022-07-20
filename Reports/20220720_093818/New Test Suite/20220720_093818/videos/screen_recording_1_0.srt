@@ -1,0 +1,112 @@
+1
+00:00:00,445 --> 00:00:02,753
+1. navigateToUrl("https://aneventapart.com/")
+
+2
+00:00:02,761 --> 00:00:09,623
+5. click(findTestObject("Object Repository/An Event Apart/Page_An Event Apart - the premier web  inte_f2ce13/label_Menu"))
+
+3
+00:00:09,624 --> 00:00:13,186
+9. click(findTestObject("Object Repository/An Event Apart/Page_An Event Apart - the premier web  inte_f2ce13/a_Register Now"))
+
+4
+00:00:13,187 --> 00:00:16,494
+13. click(findTestObject("Object Repository/An Event Apart/Page_An Event Apart Store  Registration/a_Spring Summit"))
+
+5
+00:00:16,494 --> 00:00:20,170
+17. verifyTextPresent("Register for An Event Apart", false)
+
+6
+00:00:20,170 --> 00:00:23,479
+21. verifyTextPresent(text, false)
+
+7
+00:00:23,479 --> 00:00:27,174
+25. verifyTextPresent("$1,050.00", false)
+
+8
+00:00:27,174 --> 00:00:31,233
+29. click(findTestObject("Object Repository/An Event Apart/Page_An Event Apart Store  Register for An _467dfd/a_Buy Now"))
+
+9
+00:00:31,234 --> 00:00:40,175
+33. setText(findTestObject("Object Repository/An Event Apart/Page_An Event Apart Store  Attendee Information/input_First Name_attendeefirst_name"), "First name")
+
+10
+00:00:40,176 --> 00:00:47,481
+37. setText(findTestObject("Object Repository/An Event Apart/Page_An Event Apart Store  Attendee Information/input_Last Name_attendeelast_name"), "last name")
+
+11
+00:00:47,482 --> 00:00:54,109
+41. setText(findTestObject("Object Repository/An Event Apart/Page_An Event Apart Store  Attendee Information/input_Company_attendeecompany"), "company")
+
+12
+00:00:54,110 --> 00:01:00,974
+45. setText(findTestObject("Object Repository/An Event Apart/Page_An Event Apart Store  Attendee Information/input_Title_attendeetitle"), "title")
+
+13
+00:01:00,974 --> 00:01:07,588
+49. setText(findTestObject("Object Repository/An Event Apart/Page_An Event Apart Store  Attendee Information/input_Address_attendeeaddress"), "address")
+
+14
+00:01:07,589 --> 00:01:15,009
+53. setText(findTestObject("Object Repository/An Event Apart/Page_An Event Apart Store  Attendee Information/input_Suite_attendeesuite"), "suite")
+
+15
+00:01:15,010 --> 00:01:25,685
+57. setText(findTestObject("Object Repository/An Event Apart/Page_An Event Apart Store  Attendee Information/input_City_attendeecity"), "city")
+
+16
+00:01:25,686 --> 00:01:32,689
+61. setText(findTestObject("Object Repository/An Event Apart/Page_An Event Apart Store  Attendee Information/input_State_attendeestate"), "state")
+
+17
+00:01:32,690 --> 00:01:39,842
+65. setText(findTestObject("Object Repository/An Event Apart/Page_An Event Apart Store  Attendee Information/input_Zip_attendeezip"), "11111")
+
+18
+00:01:39,842 --> 00:05:45,066
+69. selectOptionByValue(findTestObject("Object Repository/An Event Apart/Page_An Event Apart Store  Attendee Information/select_United StatesCanadaAfghanistanAland _99e1a8"), "Canada", true)
+
+19
+00:05:45,067 --> 00:05:54,727
+73. setText(findTestObject("Object Repository/An Event Apart/Page_An Event Apart Store  Attendee Information/input_Email_attendeeemail"), "email@gmail.com")
+
+20
+00:05:54,728 --> 00:06:02,171
+77. setText(findTestObject("Object Repository/An Event Apart/Page_An Event Apart Store  Attendee Information/input_Phone_attendeephone"), "0123123123")
+
+21
+00:06:02,171 --> 00:06:21,666
+81. selectOptionByValue(findTestObject("Object Repository/An Event Apart/Page_An Event Apart Store  Attendee Information/select_Please selectYesNoDont know"), "2", true)
+
+22
+00:06:21,666 --> 00:06:24,963
+85. click(findTestObject("Object Repository/An Event Apart/Page_An Event Apart Store  Attendee Information/input_Has this person attended one of our p_a67947"))
+
+23
+00:06:24,963 --> 00:06:28,385
+89. click(findTestObject("An Event Apart/Page_An Event Apart Store  Attendee Information/btn_Add attendee"))
+
+24
+00:06:28,385 --> 00:06:31,725
+93. ticket = getText(findTestObject("Object Repository/An Event Apart/Page_An Event Apart Store  Your An Event Ap_eb3b17/div_On Demand Three-Day Pass"))
+
+25
+00:06:31,725 --> 00:06:35,969
+97. totalcell = getText(findTestObject("An Event Apart/Page_An Event Apart Store  Your An Event Ap_eb3b17/td_Total1,050.00"))
+
+26
+00:06:35,970 --> 00:06:35,991
+101. verifyMatch(ticket, "On Demand Three-Day Pass", false)
+
+27
+00:06:35,991 --> 00:06:35,995
+105. verifyMatch(totalcell, "TOTAL:$1,050.00", false)
+
+28
+00:06:35,996 --> 00:06:38,383
+3. Close Browser
+

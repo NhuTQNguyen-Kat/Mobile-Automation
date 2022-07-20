@@ -1,0 +1,34 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+New Test Suite,iOS - Safari 14,,,2022-07-20 09:47:58,2022-07-20 09:55:22,7m - 24.682s,PASSED
+,,,,,,,
+Test Cases/An Event Apart Website/AEA02_Register Now,iOS - Safari 14,,,2022-07-20 09:47:58,2022-07-20 09:55:22,7m - 24.377s,PASSED
+Start listener action : sampleBeforeTestCase,iOS - Safari 14,,,2022-07-20 09:47:58,2022-07-20 09:49:14,1m - 15.976s,PASSED
+"navigateToUrl(""https://aneventapart.com/"")",iOS - Safari 14,,,2022-07-20 09:49:15,2022-07-20 09:49:18,3.353s,PASSED
+"click(findTestObject(""Object Repository/An Event Apart/Page_An Event Apart - the premier web  inte_f2ce13/label_Menu""))",iOS - Safari 14,,,2022-07-20 09:49:18,2022-07-20 09:49:22,4.130s,PASSED
+"click(findTestObject(""Object Repository/An Event Apart/Page_An Event Apart - the premier web  inte_f2ce13/a_Register Now""))",iOS - Safari 14,,,2022-07-20 09:49:22,2022-07-20 09:49:26,3.948s,PASSED
+"click(findTestObject(""Object Repository/An Event Apart/Page_An Event Apart Store  Registration/a_Spring Summit""))",iOS - Safari 14,,,2022-07-20 09:49:26,2022-07-20 09:49:30,3.357s,PASSED
+"verifyTextPresent(""Register for An Event Apart"", false)",iOS - Safari 14,,,2022-07-20 09:49:30,2022-07-20 09:49:34,4.010s,PASSED
+"verifyTextPresent(text, true)",iOS - Safari 14,,,2022-07-20 09:49:34,2022-07-20 09:49:37,3.494s,PASSED
+"verifyTextPresent(""$1,050.00"", false)",iOS - Safari 14,,,2022-07-20 09:49:37,2022-07-20 09:49:40,3.233s,PASSED
+"click(findTestObject(""Object Repository/An Event Apart/Page_An Event Apart Store  Register for An _467dfd/a_Buy Now""))",iOS - Safari 14,,,2022-07-20 09:49:40,2022-07-20 09:49:44,3.501s,PASSED
+"setText(findTestObject(""Object Repository/An Event Apart/Page_An Event Apart Store  Attendee Information/input_First Name_attendeefirst_name""), ""First name"")",iOS - Safari 14,,,2022-07-20 09:49:44,2022-07-20 09:49:51,7.497s,PASSED
+"setText(findTestObject(""Object Repository/An Event Apart/Page_An Event Apart Store  Attendee Information/input_Last Name_attendeelast_name""), ""last name"")",iOS - Safari 14,,,2022-07-20 09:49:51,2022-07-20 09:50:00,8.195s,PASSED
+"setText(findTestObject(""Object Repository/An Event Apart/Page_An Event Apart Store  Attendee Information/input_Company_attendeecompany""), ""company"")",iOS - Safari 14,,,2022-07-20 09:50:00,2022-07-20 09:50:06,6.768s,PASSED
+"setText(findTestObject(""Object Repository/An Event Apart/Page_An Event Apart Store  Attendee Information/input_Title_attendeetitle""), ""title"")",iOS - Safari 14,,,2022-07-20 09:50:06,2022-07-20 09:50:13,6.690s,PASSED
+"setText(findTestObject(""Object Repository/An Event Apart/Page_An Event Apart Store  Attendee Information/input_Address_attendeeaddress""), ""address"")",iOS - Safari 14,,,2022-07-20 09:50:13,2022-07-20 09:50:20,7.491s,PASSED
+"setText(findTestObject(""Object Repository/An Event Apart/Page_An Event Apart Store  Attendee Information/input_Suite_attendeesuite""), ""suite"")",iOS - Safari 14,,,2022-07-20 09:50:20,2022-07-20 09:50:31,10.135s,PASSED
+"setText(findTestObject(""Object Repository/An Event Apart/Page_An Event Apart Store  Attendee Information/input_City_attendeecity""), ""city"")",iOS - Safari 14,,,2022-07-20 09:50:31,2022-07-20 09:50:37,6.640s,PASSED
+"setText(findTestObject(""Object Repository/An Event Apart/Page_An Event Apart Store  Attendee Information/input_State_attendeestate""), ""state"")",iOS - Safari 14,,,2022-07-20 09:50:37,2022-07-20 09:50:44,6.881s,PASSED
+"setText(findTestObject(""Object Repository/An Event Apart/Page_An Event Apart Store  Attendee Information/input_Zip_attendeezip""), ""11111"")",iOS - Safari 14,,,2022-07-20 09:50:44,2022-07-20 09:50:51,6.560s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/An Event Apart/Page_An Event Apart Store  Attendee Information/select_United StatesCanadaAfghanistanAland _99e1a8""), ""Canada"", true)",iOS - Safari 14,,,2022-07-20 09:50:51,2022-07-20 09:54:26,3m - 35.332s,PASSED
+"setText(findTestObject(""Object Repository/An Event Apart/Page_An Event Apart Store  Attendee Information/input_Email_attendeeemail""), ""email@gmail.com"")",iOS - Safari 14,,,2022-07-20 09:54:26,2022-07-20 09:54:35,8.714s,PASSED
+"setText(findTestObject(""Object Repository/An Event Apart/Page_An Event Apart Store  Attendee Information/input_Phone_attendeephone""), ""0123123123"")",iOS - Safari 14,,,2022-07-20 09:54:35,2022-07-20 09:54:42,6.815s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/An Event Apart/Page_An Event Apart Store  Attendee Information/select_Please selectYesNoDont know""), ""2"", true)",iOS - Safari 14,,,2022-07-20 09:54:42,2022-07-20 09:55:01,19.150s,PASSED
+"click(findTestObject(""Object Repository/An Event Apart/Page_An Event Apart Store  Attendee Information/input_Has this person attended one of our p_a67947""))",iOS - Safari 14,,,2022-07-20 09:55:01,2022-07-20 09:55:04,3.349s,PASSED
+"click(findTestObject(""An Event Apart/Page_An Event Apart Store  Attendee Information/btn_Add attendee""))",iOS - Safari 14,,,2022-07-20 09:55:04,2022-07-20 09:55:07,3.375s,PASSED
+"ticket = getText(findTestObject(""Object Repository/An Event Apart/Page_An Event Apart Store  Your An Event Ap_eb3b17/div_On Demand Three-Day Pass""))",iOS - Safari 14,,,2022-07-20 09:55:07,2022-07-20 09:55:12,4.104s,PASSED
+"totalcell = getText(findTestObject(""An Event Apart/Page_An Event Apart Store  Your An Event Ap_eb3b17/td_Total1,050.00""))",iOS - Safari 14,,,2022-07-20 09:55:12,2022-07-20 09:55:15,3.492s,PASSED
+"verifyMatch(ticket, ""On Demand Three-Day Pass"", false)",iOS - Safari 14,,,2022-07-20 09:55:15,2022-07-20 09:55:15,0.020s,PASSED
+"verifyMatch(totalcell, ""TOTAL:$1,050.00"", false)",iOS - Safari 14,,,2022-07-20 09:55:15,2022-07-20 09:55:15,0.001s,PASSED
+Start listener action : sampleAfterTestCase,iOS - Safari 14,,,2022-07-20 09:55:15,2022-07-20 09:55:20,4.570s,PASSED
+Video,iOS - Safari 14,,,2022-07-20 09:55:22,2022-07-20 09:55:22,0.000s,PASSED

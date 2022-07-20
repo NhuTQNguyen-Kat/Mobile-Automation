@@ -1,0 +1,32 @@
+1
+00:00:00,000 --> 00:00:00,019
+3. Open Browser
+
+2
+00:00:00,020 --> 00:00:02,282
+1. navigateToUrl("https://aneventapart.com/")
+
+3
+00:00:02,282 --> 00:00:05,965
+5. click(findTestObject("Object Repository/An Event Apart/Page_An Event Apart - the premier web  inte_f2ce13/label_Menu"))
+
+4
+00:00:05,966 --> 00:00:09,355
+9. click(findTestObject("Object Repository/An Event Apart/Page_An Event Apart - the premier web  inte_f2ce13/a_Register Now"))
+
+5
+00:00:09,356 --> 00:00:12,673
+13. click(findTestObject("Object Repository/An Event Apart/Page_An Event Apart Store  Registration/a_Spring Summit"))
+
+6
+00:00:12,674 --> 00:00:15,855
+17. verifyTextPresent("Register for An Event Apart", false)
+
+7
+00:00:15,856 --> 00:00:23,292
+21. verifyTextPresent(text, true)
+
+8
+00:00:23,293 --> 00:00:25,380
+3. Close Browser
+
