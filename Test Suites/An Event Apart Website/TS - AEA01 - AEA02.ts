@@ -25,5 +25,11 @@ AEA02: Register Now</description>
       <isRun>true</isRun>
       <testCaseId>Test Cases/An Event Apart Website/AEA02_Register Now</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>1cdad74d-d4f8-465b-835a-ff0aeb3a3425</variableId>
+      </variableLink>
    </testCaseLink>
 </TestSuiteEntity>

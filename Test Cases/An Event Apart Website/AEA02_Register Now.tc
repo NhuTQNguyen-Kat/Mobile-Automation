@@ -5,4 +5,26 @@
    <tag></tag>
    <comment></comment>
    <testCaseGuid>16e91922-b262-4214-9f21-9b224c5431b8</testCaseGuid>
+   <testDataLinks>
+      <combinationType>ONE</combinationType>
+      <id>e3d4ae84-c570-4a05-926c-a02208bd8ebc</id>
+      <iterationEntity>
+         <iterationType>ALL</iterationType>
+         <value></value>
+      </iterationEntity>
+      <testDataId>Data Files/ABC(123)DE</testDataId>
+   </testDataLinks>
+   <variableLinks>
+      <testDataLinkId>e3d4ae84-c570-4a05-926c-a02208bd8ebc</testDataLinkId>
+      <type>DATA_COLUMN</type>
+      <value>Platform</value>
+      <variableId>1cdad74d-d4f8-465b-835a-ff0aeb3a3425</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'On Demand Three-Day Pass'</defaultValue>
+      <description></description>
+      <id>1cdad74d-d4f8-465b-835a-ff0aeb3a3425</id>
+      <masked>false</masked>
+      <name>text</name>
+   </variable>
 </TestCaseEntity>
